@@ -1,4 +1,4 @@
-# M5W4_SeleniumWebdriver_BDD
+# Selenium_BDD
 M5W4_SeleniumWebdriver
 
 
