@@ -1,0 +1,124 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "fluxo-de-exceção-1;o-usuário-não-preenche-nenhum-campo",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "O usuário não preenche nenhum campo",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Usuario no campo cadastro",
+            "match": {
+              "location": "features/step-definitions/TC2.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17639405588
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Nao preenche nenhum campo",
+            "match": {
+              "location": "features/step-definitions/TC2.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 724730511
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "O sistema exibe uma mensagem de erro",
+            "match": {
+              "location": "features/step-definitions/TC2.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 215760307
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "fluxo-de-exceção-1",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Fluxo de exceção 1",
+    "tags": [],
+    "uri": "features/TC02.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "cadastro-no-site;cadastro",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "cadastro",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "visitar o site Publicazo",
+            "match": {
+              "location": "features/step-definitions/TC1.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10918188517
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "preencho os campos de teste",
+            "match": {
+              "location": "features/step-definitions/TC1.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3775614480
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "aparece uma mensagem de sucesso",
+            "match": {
+              "location": "features/step-definitions/TC1.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30058165
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "cadastro-no-site",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "cadastro no site",
+    "tags": [],
+    "uri": "features/TC1.feature"
+  }
+]
